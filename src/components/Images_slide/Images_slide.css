@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-basis: 95%;
+  height: 30rem;     
+}
+
+span.image {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+  flex-grow: 1;
+transition: flex-grow 0.4s ease-in;
+}
+
+
+span.image:before {
+  display: block;
+  content: '';
+  padding-left: 8rem;
+  background: #000;
+}
+
+.Img_slide {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 50%; left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.container .image:hover {
+  flex-grow:2;
+}
