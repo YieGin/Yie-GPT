@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Yie-GPT/static/css/main.21af7042.css",
+    "main.js": "/Yie-GPT/static/js/main.813305bf.js",
+    "static/media/save.svg": "/Yie-GPT/static/media/save.a1ca676d8d91ddaa3e69800a563aeafb.svg",
+    "static/media/like.svg": "/Yie-GPT/static/media/like.03e19d92fbb449e1141dcece384d63d9.svg",
+    "index.html": "/Yie-GPT/index.html",
+    "static/media/dislike.svg": "/Yie-GPT/static/media/dislike.6a6f6d34ead9221134f5c1635e4a6d17.svg",
+    "static/media/1.svg": "/Yie-GPT/static/media/1.9892f976052be25025faccaccaeece0e.svg",
+    "main.21af7042.css.map": "/Yie-GPT/static/css/main.21af7042.css.map",
+    "main.813305bf.js.map": "/Yie-GPT/static/js/main.813305bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21af7042.css",
+    "static/js/main.813305bf.js"
+  ]
+}
