@@ -4,6 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Guide to resolving OpenAI integration issue on website hosted on gh-pages
+
+There seems to be an issue with the OpenAI integration on the website hosted on gh-pages. Unfortunately, I am unable to share my API_KEY with you to resolve this issue. However, you can easily fix it yourself by following these steps:
+
+#1 Visit https://platform.openai.com/account/api-keys and create your own API keys.
+#2 Create a file named ".env" and put your API key in there.
+#3 Add the following code to the file:
+
+API_KEY=Your Key
+REACT_APP_OPENAI_KEY_IMAGE=2nd Key
+
+It's important to note that you'll need to create two API keys, as we're using two different AI.
+
+Once you've followed these steps, the backend of the website on gh-pages should work perfectly fine. If you have any further questions or issues, please don't hesitate to reach out.
+
 In the project directory, you can run:
 
 ### `npm run start:backend`
