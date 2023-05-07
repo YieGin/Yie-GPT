@@ -8,9 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 There seems to be an issue with the OpenAI integration on the website hosted on gh-pages. Unfortunately, I am unable to share my API_KEY with you to resolve this issue. However, you can easily fix it yourself by following these steps:
 
-### Visit https://platform.openai.com/account/api-keys and create your own API keys.
-### Create a file named ".env" and put your API key in there.
-### Add the following code to the file:
+1### Visit https://platform.openai.com/account/api-keys and create your own API keys.
+2### Create a file named ".env" and put your API key in there.
+3### Add the following code to the file:
 
 API_KEY=Your Key
 REACT_APP_OPENAI_KEY_IMAGE=2nd Key
